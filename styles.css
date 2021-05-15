@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+#top{
+    background-color: #ebf4ff;
+    padding-bottom: 100px;
+}
+#demo-btn{
+    background-color: #2979EC;
+    color: white;
+    font-size: 25px;
+    margin: 70px 70px;
+    padding: 15px 45px;
+    border-radius: 40px;
+    float: right;
+    font-weight: 700;
+}
+#logo{
+    height:160px;
+    margin-top: 20px ;
+    margin-left:70px;
+}
+#b2b{
+    clear:both;
+    margin-top: 30px;
+}
+h1{
+    font-size: 100px;
+    font-weight: 400;
+}
+h2{
+    font-size:100px;
+    font-weight: 600;
+    line-height: 80px;
+}
+h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+#b2b-p{
+    font-size: 40px;
+    line-height: 50px;
+}
+#tools-img{
+    width: 100%;
+}
+#middle{
+    padding-top: 150px;
+}
+
+#middle p{
+    font-size: 28px;
+    line-height: 33px;
+}
+#team-img{
+    width: 100%;
+}
+#bottom{
+    background-color: #0A459E;
+}
+#footer h3{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+}
+#contact-btn{
+    display: block;
+    margin: 0 auto;  
+    background-color: #0A459E;
+    color: white;
+    font-size: 25px;
+    /* margin: 70px 70px; */
+    padding: 15px 45px;
+    border: 1px solid white;
+    border-radius: 40px;
+    float: right;
+    font-weight: 700;
+    width:264px;
+}
+
+@keyframes fall{
+    0%{
+        top: -5vh
+    }
+    100%{
+        top: 105vh;
+    }
+}
+
